@@ -1,0 +1,202 @@
+1. Refer to the code below:
+   01 const exec = (item, delay) =>
+   
+Ans1: runParallel().done(function(data){
+Ans2: runParallel().then(function(data){
+
+2. A class was written to represent items for purchase in an online store, and a second class representing items that are on sale at a discounted price.
+Ans: 50
+     80
+	 50
+	 72
+3. A developer removes the checkout button that looked like this:
+Ans: false negative
+4. Refer to the code below:
+   01 function changeValue(param){
+Ans: 10-10
+5.Refer to the following code:
+  01 class Vehicle{
+Ans: super(plate);
+6. Given the code below:
+   const delay = async delay => {
+Ans: 2 1 3
+7. Refer to the code snippet:
+   01 let array = [1,2,3,4,4,5,4,4];
+Ans: [1,2,3,5]
+8. Which three statements are true about promises?
+Ans1: A promise has a .then() method
+Ans2: A fulfilled or rejected promise will not change states
+Ans3: A pending promise can become fulfilled, settled, or rejected.
+9. Refer to the code:
+   01 function Vehicle(name, price) {
+Ans: 01 class Vehicle {
+     02  constructor(name,price) {
+	 03   this.name = name;
+	 04   this.price = price;
+	 05  }
+	 06  priceInfo() {
+	 07   return 'Cost of the ${this.name} is ${this.price}$';
+	 08  }
+	 09 }
+10. A developer has code that calculates a restaurant bill, but generates incorrect answers while testing the code.
+    01 function calculateBill(items){
+Ans: using the debugger command on line 05.
+11. Given a value, which two options can a developer use to detect if the value is NaN?
+Ans1: Object.is(value, NaN)
+Ans2: isNaN(value)
+12. Refer to the following code that imports a module named Utils:
+Ans1: export default class {
+Ans2: const foo = {} => {return 'foo';}
+      const bar = {} => {return 'bar';}
+	  export {foo, bar}
+13. Refer to the code below:
+    01 const event = new CustomEvent(
+Ans1: 'update', {
+         detail : {
+		   recordId : '123abc'
+		 }
+	   }
+Ans2: 'update', {
+         recordId : '123abc'
+	  }
+14. A developer is setting up a Node.js server with a client library that is built using events and callbacks.
+Ans: ws.on('connect'. () => {
+        console.log('Connected to client');
+	 }};
+	 
+	 ws.on('error', (error) => {
+	    console.log('ERROR', error);
+	}};
+15. Given the following code:
+    01 counter = 0;
+Ans: 0 1 2 2
+16. Teams at Universal Containers work on multiple Javascript projects at the same time.
+Ans: private packages can be scoped and scopes be associated to a private registries.
+17. Refer to the code below:
+    01 function myFunction(reassign){
+Ans: 2 2 1 2
+18. Considering type coercion, what does the following expression evaluate to?
+Ans: 'true13NaN'
+19. Refer to the code below:
+    01 const myFunction = arr => {
+Ans: Returns 5
+20. Refer to the HTML below:
+    <p> The current status of an Order: <span id='status'> In Progress </span> </p>
+Ans: document.getElementById{"status"}.innerHTML = 'Completed';
+21. Refer to the code below:
+    01 let a = 'a';
+Ans: undefined
+22. Refer to the code below:
+    flag();
+Ans: The console logs 'flag' and 'another flag'.
+23. Refer to the code below:
+    01 function Person (firstName, lastName, eyeColor) {
+Ans: undefined
+24. Refer to the code snippet below:
+    01 let array = {1, 2, 3, 4, 4, 5, 4, 4};
+Ans: [1, 2, 3, 4, 5, 4]
+25. Refer to the following object.
+    01 const dog = {
+Ans: dog.fullName
+26. Given the code block below:
+    01 function GameConsole(name) {
+Ans: Console16bit.prototype.load = function(gameName) {
+27. Refer to the code below:
+    01 function foo() {
+Ans: Outer function's scope
+28. Refer to the HTML below:
+    <div id='main'>
+Ans: document.getElementById{'card-01'}.getBoundingClientRect().height
+29. Which two actions can be done using the Javascript browser console?
+Ans1: Change the DOM and the Javascript code of the page.
+Ans2: Run code that's not related to the page
+30. Refer to the code below:
+    let productSKU = '8675309';
+Ans: productSKU = productSKU.padStart(16, '0').padStart(19,'sku')
+31. Refer to the code below:
+    01 let first = 'Who';
+Ans: first is Why and second is When.
+32. Refer to the code snippet:
+    01 function getAvailabilityMessage(item) {
+Ans: "newUserName"
+33. A developer wants to create a simple image upload in the browser using the File API.
+Ans: 04 const reader = new FileReader();
+     08 if(file) reader.readAsDataURL(file);
+34. A developer creates a simple webpage with an input field. When a user enters text in the input field and clicks the button,
+Ans: Replace line 04 with console.log(input.value);
+35. Refer to the following code:
+    01 function test(val) {
+Ans: undefined
+36. A developer is setting up a Node.js server and is creating a script at the root of the source code, index.js, that will start the server when executed.
+Ans: __filename
+37. The developer has a function that prints "Hello" to an input name. To test this, the developer created a function
+Ans: change line 2 to Console.log('Hello', name());
+38. A developer needs to debug a Node.js web server because a runtime error keeps occurring at one of the endpoints
+Ans: node inspect server.js
+39. myArray, can have one level, two levels, or more levels.
+Ans: myArray.reduce( {prev, curr} => prev.conca(curr), {});
+40. Given two expressions var1 and var2, what are two valid ways to return the concatenation of the two expressions
+Ans1: var1.toString() + var2.toString()
+Ans2: var1+var2
+41. A developer copied a Javascript object:
+    01 function Person() {
+Ans1: dan.firstName + dan.lastName
+Ans2: dan.name
+42. A developer wants to use a try...catch statement to catch any error that countSheep() may throw
+Ans: try {
+       setTimeout(function() {
+	     countSheep();
+	   }, 1000};
+	 }catch (e) {
+	   handleError(e);
+	 }
+43. Refer to the following code:
+    let codeName = 'Bond';
+Ans1: sampleText.includes('Jim', 4);
+Ans2: sampleText.includes('Jim');
+Ans3: sampleText.indexOf('Bond') !== -1;
+44. Refer to the code below:
+    01 let o = {
+Ans: 'new york'
+45. Refer to the following code:
+    01 <html lang="en">
+Ans: >Outer Message.
+     >Inner Message.
+46. Given the code below:
+    01 function Person(name, email) {
+Ans: console.group(usersList);
+47. Refer to the code below:
+    01 let total = 10;
+Ans: 11
+48. A developer is wondering whether to use, Promise.then or Promise.catch, especially when a promise throws an error.
+Ans1: new Promise((resolve, reject) => {throw, 'Cool error here'}}.catch(error => console.error(error)};
+Ans2: Promise.reject('Cool error here').catch(error => console.error(error));
+49. A test has a dependency on database.query. During the test, the dependency is replaced with an object called database with the method,
+Ans1: White box
+Ans2: Substitution
+50. Which two options are core Node.js modules?
+Ans1: http
+Ans2: iostream
+51. Which Javascript methods can be used to serialize an object into a string and deserialize a JSON string into an object, respectively?
+Ans: JSON.stringify and JSON.parse
+52. Which statement accurately describes the behavior of the async/await keywords?
+Ans: The associated function will always return a promise
+53. A developer wants to leverage a module to print a price in pretty format, and has imported a method as shown below:
+Ans: printPrice must be the default export
+54. Refer to the code below:
+    01 let timedFunction = () => {
+Ans: clearInterval(timerId);
+55. At Universal Containers, every team has its own way of copying Javascript objects.
+Ans: SyntaxError: Unexpected token in JSON
+56. A developer wrote the following code to test a sum3 function that takes in an array of numbers and returns the sum of the first three numbers in the array, The test passes:
+Ans1: The line 02 assertion passes.
+Ans2: The line 05 assertion fails.
+57. Refer to the code below:
+    01 async function functionUnderTest(isOK) {
+Ans: console.assert(await functionUnderTest(true), 'OK')
+58. A developer at Universal Containers is creating their new landing page based on HTML, CSS and Javascript.
+Ans:window.addEventListener('load', personalizeWebsiteContent);
+59. A developer implements and calls the following code and when an application state change occurs:
+Ans: The page is navigated away from and the previous page in the browser's history is loaded.
+60. A developer has the function, shown below, that is called when a page loads.
+Ans: Browser Javascript Console
